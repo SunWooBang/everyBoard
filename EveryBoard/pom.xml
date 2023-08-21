@@ -8,10 +8,10 @@
 		<version>3.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.SpringTest</groupId>
-	<artifactId>SpringTest</artifactId>
+	<groupId>com.EveryBoard</groupId>
+	<artifactId>EveryBoard</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringTest</name>
+	<name>EveryBoard</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -68,12 +68,6 @@
 			<version>3.0.2</version>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-          <groupId>org.apache.tomcat.embed</groupId>
-          <artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
-		
 	</dependencies>
 
 	<build>
