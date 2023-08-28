@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class EveryBoardMainController {
 	
-	@RequestMapping("/main.do")
+	@RequestMapping("/main.do") 
 	public String Main() {
 		System.out.println("Main Controller  실행됨");
 		System.out.println("/main.do");
